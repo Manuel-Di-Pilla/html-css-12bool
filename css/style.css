@@ -1,0 +1,15 @@
+.nested{
+  border: 0;
+}
+.nested > [class*="col-"]{
+  background-color: #F07F80;
+}
+[class*="col-"]{
+  position: relative;
+}
+.container > [class*="col-"] p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
