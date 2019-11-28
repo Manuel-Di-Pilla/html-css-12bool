@@ -1,6 +1,3 @@
-.nested{
-  border: 0;
-}
 .nested > [class*="col-"]{
   background-color: #F07F80;
 }
